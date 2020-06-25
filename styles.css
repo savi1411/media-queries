@@ -1,0 +1,28 @@
+body {
+    background-color: #a5c8de;
+}
+#largura-1 {
+    background-color: none;
+}						
+p {
+    padding: 20px;
+    font: bold 18px/24px  Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 3px 2px 3px #001d2f;
+    border: 1px dotted #000000;
+}
+@media (min-width: 480px) {
+    #largura-2 {
+        background-color: #297802;
+    }
+}
+@media (min-width: 760px) {
+    #largura-3 {
+        background-color: #d30000;
+    }
+}
+@media (min-width: 900px) {
+    #largura-4 {
+        background-color: #1e00d3;
+    }
+}
